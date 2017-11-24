@@ -1,3 +1,7 @@
-#heading{
-    font-family: 'VT323', monospace;
+*{
+    font-family: 'VT323', monospace !important;
+    color: rgb(137, 243, 76);
+}
+body{
+    background-color: #111111;
 }
