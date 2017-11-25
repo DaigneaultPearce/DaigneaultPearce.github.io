@@ -8,3 +8,19 @@ body{
 video{
     display: block;
 }
+ul{
+    text-align: center;
+}
+li{
+    display: inline;
+}
+.heading{
+    text-align: center;
+}
+time{
+    text-align: center;
+    display: block;
+}
+hr{
+    border-color: rgb(0, 225, 255);
+}
