@@ -1,5 +1,11 @@
+@media only screen and (max-width:450px){
+    .video_box{
+        padding: 0em;
+    }
+}
 *{
     font-family: 'VT323', monospace !important;
+    font-size: 1.1em;
     color: rgb(137, 243, 76);
 }
 body{
@@ -35,12 +41,18 @@ main{
     padding-left: 10%;
     padding-right: 10%;
 }
-p{
+article p{
     text-align: left;
 }
 .video_box{
     margin: auto;
 }
-#about_me p{
+.center_text{
     text-align: center;
+}   
+
+@media only screen and (min-width:1440px){
+    *{
+        font-size: 2vw;
+    }
 }
