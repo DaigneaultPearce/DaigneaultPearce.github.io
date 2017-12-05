@@ -1,8 +1,3 @@
-@media only screen and (max-width:450px){
-    .video_box{
-        padding: 0em;
-    }
-}
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -18,6 +13,10 @@
 body{
     background-color: #111111;
 }
+button{
+    background-color:#111111;
+    border: 1px solid rgb(137, 243, 76);
+}
 video{
     display: block;
     margin: auto;
@@ -27,22 +26,7 @@ video{
 ul{
     text-align: center;
     padding: 0px;
-}
-li{
-    display: inline;
-}
-.heading{
-    text-align: center;
-}
-time{
-    text-align: center;
-    display: block;
-}
-hr{
-    border-color: rgb(0, 225, 255);
-}
-#footer{
-    text-align: center;
+    list-style-type: none;
 }
 main{
     padding-left: 10%;
@@ -51,15 +35,41 @@ main{
 article p{
     text-align: left;
 }
+time{
+    text-align: center;
+    display: block;
+}
+hr{
+    border-color: rgb(0, 225, 255);
+}
+#social_section{
+    margin: auto;
+    max-width: 100%;
+}
+.inline{
+    display: inline;
+}
+.heading{
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+}
 .video_box{
     margin: auto;
 }
 .center_text{
     text-align: center;
 }   
-
 @media only screen and (min-width:1440px){
     *{
         font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .video_box{
+        padding: 0em;
     }
 }
