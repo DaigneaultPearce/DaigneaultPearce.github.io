@@ -61,7 +61,40 @@ hr{
 }
 .center_text{
     text-align: center;
-}   
+}
+/*COLLAPSEABLES*/
+.panel {
+    border: 1px solid #333;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .panel h2 {
+    margin: 0;
+    padding: 0 0.5rem;
+    user-select: element;
+    background: #333;
+    color: #FFF;
+  }
+  
+  .panel .content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    
+    transition: width 500ms,
+                height 500ms,
+                padding 500ms;
+  }
+  
+  .content.closed {
+    height: 0px;
+  }
+
 @media only screen and (min-width:1440px){
     *{
         font-size: 2vw;
